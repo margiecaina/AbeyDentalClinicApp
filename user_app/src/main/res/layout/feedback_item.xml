@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedbackTitle"
+        android:layout_margin="15dp"
+        android:background="@drawable/backgroundfeedback"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5:00 PM"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/tvName"
+            android:gravity="end"
+            android:id="@+id/tvRealtime"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textColor="@color/black"
+            android:id="@+id/tvName"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Loading..."
+            android:id="@+id/completeNameText"
+            android:layout_toRightOf="@id/tvName"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textColor="@color/black"
+            android:id="@+id/tvDate"
+            android:layout_below="@id/completeNameText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Loading..."
+            android:textColor="@color/black"
+            android:id="@+id/dateText"
+            android:layout_toRightOf="@id/tvDate"
+            android:layout_below="@id/completeNameText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Service: "
+            android:id="@+id/tvService"
+            android:layout_below="@id/dateText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Loading..."
+            android:textColor="@color/black"
+            android:id="@+id/serviceText"
+            android:layout_toRightOf="@id/tvService"
+            android:layout_below="@id/dateText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. How was our service?"
+            android:textColor="@color/black"
+            android:id="@+id/tvquestion1"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/serviceText"/>
+
+        <!-- emoticon -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tvquestion1"
+            android:gravity="center"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:id="@+id/emotionCase">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ic_angry">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/angryicon"
+                    android:id="@+id/ic_angryimg1"
+                    android:layout_margin="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Angry"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ic_sad">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sadicon"
+                    android:layout_margin="5dp"
+                    android:id="@+id/ic_sadimg1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Sad"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ic_neutral">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/confusedicon"
+                    android:layout_margin="5dp"
+                    android:id="@+id/ic_neutralimg1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Neutral"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ic_goodjob">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/goodicon"
+                    android:layout_margin="5dp"
+                    android:id="@+id/ic_goodimg1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Good"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ic_verygoodjob">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/happyicon"
+                    android:id="@+id/ic_verygoodjobimg1"
+                    android:layout_margin="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Very Good"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- end of emoticon one -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Were you comfrotable during your visi?"
+            android:textColor="@color/black"
+            android:id="@+id/tvquestion2"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/emotionCase"/>
+
+        <!-- emoticon two -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tvquestion2"
+            android:gravity="center"
+            android:id="@+id/emotionCase2">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ic_angry2">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/angryicon"
+                    android:layout_margin="5dp"
+                    android:id="@+id/ic_angryimg2"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Angry"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ic_sad2">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sadicon"
+                    android:id="@+id/ic_sadimg2"
+                    android:layout_margin="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:text="Sad"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ic_neutral2">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/confusedicon"
+                    android:layout_margin="5dp"
+                    android:id="@+id/ic_neutralimg2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:text="Neutral"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ic_goodjob2">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/goodicon"
+                    android:layout_margin="5dp"
+                    android:id="@+id/ic_goodimg2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Good"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:id="@+id/ic_verygoodjob2">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/happyicon"
+                    android:layout_margin="5dp"
+                    android:id="@+id/ic_verygoodjobimg2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Very Good"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- end of emotion 2 -->
+
+        <!-- question number 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. How would you rate our dentist and patient experience?"
+            android:textColor="@color/black"
+            android:id="@+id/tvquestion3"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/emotionCase2"/>
+
+        <EditText
+            android:id="@+id/editTextForQuestion3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:background="@color/white"
+            android:layout_below="@id/tvquestion3"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp" />
+
+        <!-- question number 4 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Are there any insights, suggestions, or complaints that you wanted to say in our clinic??"
+            android:textColor="@color/black"
+            android:id="@+id/tvquestion4"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/editTextForQuestion3"/>
+
+        <EditText
+            android:id="@+id/editTextForQuestion4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:background="@color/white"
+            android:layout_below="@id/tvquestion4"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/errorTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text=""
+            android:layout_below="@+id/editTextForQuestion4"
+            android:textColor="@color/red"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/booknow_background"
+            android:text="Submit"
+            android:layout_below="@+id/errorTv"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"/>
+    </RelativeLayout>
+</ScrollView>

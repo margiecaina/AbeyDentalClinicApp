@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestConfirmation"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/appointmentbackground"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/background">
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/exitBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/exit_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="40dp"
+            android:background="@drawable/buttonbackground"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="Summary of your appointment"
+            app:layout_constraintTop_toBottomOf="@+id/background"
+            android:layout_marginTop="-20dp"
+            android:id="@+id/headerAppointment"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/appointmentsummarybg"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/headerAppointment"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/reminderText"
+                android:layout_margin="25dp"
+                android:gravity="center">
+                <!-- fullname -->
+                <TextView
+                    android:id="@+id/nameText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/fullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/nameText"
+                    android:hint="Loading..."
+                    android:textColor="@color/black" />
+
+                <!-- service  -->
+
+                <TextView
+                    android:id="@+id/serviceText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nameText"
+                    android:text="Service: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/service"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nameText"
+                    android:layout_toRightOf="@+id/serviceText"
+                    android:hint="Loading..."
+                    android:textColor="@color/black" />
+
+                <!-- date -->
+
+                <TextView
+                    android:id="@+id/dateText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/service"
+                    android:text="Date: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/service"
+                    android:layout_toRightOf="@+id/dateText"
+                    android:hint="Loading..."
+                    android:textColor="@color/black" />
+
+                <!-- session -->
+
+                <TextView
+                    android:id="@+id/sessionText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/date"
+                    android:text="Session: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/session"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/date"
+                    android:layout_toRightOf="@+id/sessionText"
+                    android:hint="Loading..."
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/confirmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border_bg"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:layout_marginTop="80dp"
+            android:text="Confirm"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

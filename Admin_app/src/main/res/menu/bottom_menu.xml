@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_icon"
+        >
+    </item>
+    <item
+        android:id="@+id/schedule"
+        android:title="Schedule"
+        android:icon="@drawable/schedule_icon"
+        >
+    </item>
+    <item
+        android:id="@+id/approval"
+        android:title="Approval"
+        android:icon="@drawable/approval_icon"
+        >
+    </item>
+    <item
+        android:id="@+id/queue"
+        android:title="Queue"
+        android:icon="@drawable/queue_icon"
+        >
+    </item>
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedback_icon"
+        >
+    </item>
+
+</menu>

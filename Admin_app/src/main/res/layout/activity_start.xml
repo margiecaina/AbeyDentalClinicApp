@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".StartActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login_bg">
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/adminlogo"
+                    android:layout_toEndOf="@+id/bg_login"
+                    android:layout_marginTop="-50dp"
+                    />
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Email"
+                    android:padding="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:elevation="8dp"
+                    android:background="@drawable/black_border_shadow"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="40dp"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:elevation="8dp"
+                    >
+
+                        <EditText
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="Enter Password"
+                            android:inputType="textPassword"
+                            android:padding="15dp"
+                            android:textColor="@color/black"
+                            android:background="@drawable/black_border_shadow"
+                            android:textColorHint="@color/black"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"/>
+                        <ImageView
+                            android:id="@+id/show_hide_password"
+                            android:layout_width="30dp"
+                            android:layout_height="32dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/ic_show_pwd"
+                            android:visibility="visible"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintRight_toRightOf="@id/password"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red"
+                    android:gravity="start"
+                    android:text=""
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="15dp"
+                    android:id="@+id/errorText"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@drawable/button_border_bg"
+                    android:text="Log in"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="100dp"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/login"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Password?"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:id="@+id/forgotPasswordBtn"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Don't have an account?"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="50dp"
+                    android:gravity="center"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:background="@drawable/button_border_bg"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="100dp"
+                    android:text="Sign Up"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/registerBtn"/>
+        </LinearLayout>
+</ScrollView>

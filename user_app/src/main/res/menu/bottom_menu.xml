@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_icon"
+        >
+    </item>
+    <item
+        android:id="@+id/dentist"
+        android:title="Dentist"
+        android:icon="@drawable/dentist"
+        >
+    </item>
+    <item
+        android:id="@+id/services"
+        android:title="Services"
+        android:icon="@drawable/services"
+        >
+    </item>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        >
+    </item>
+    <item
+        android:id="@+id/Feedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedback"
+        >
+    </item>
+
+</menu>

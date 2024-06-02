@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:id="@+id/rl"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bridgework"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:id="@+id/serviceNameTextView"
+            android:padding="10dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bookNowButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:paddingBottom="15dp"
+            android:background="@drawable/booknow_background"
+            android:text="@string/book_now"
+            android:textColor="@color/black" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/divider"
+            android:background="@color/black"
+            android:layout_below="@id/bookNowButton"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Refers to dental restorations useed to replace one or several missing teeth by joining permanently to adjacent teeth or dental implants."
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/divider"
+            android:id="@+id/serviceDescriptionTextView"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

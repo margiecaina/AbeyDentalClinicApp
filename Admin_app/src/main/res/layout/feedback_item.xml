@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="10dp"
+        android:background="@color/white"
+        android:id="@+id/cardView"
+        android:elevation="6dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/blueQueue"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView_profile_dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/no_profile"
+                app:civ_border_color="@color/lightergreen"
+                android:layout_marginRight="15dp"
+                app:civ_border_width="2dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5:00 PM"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/tvName"
+                android:gravity="end"
+                android:id="@+id/tvRealtime"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:textColor="@color/black"
+                android:id="@+id/tvName"
+                android:layout_toRightOf="@+id/imageView_profile_dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:hint="Loading..."
+                android:id="@+id/completeNameText"
+                android:layout_toRightOf="@id/tvName"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: "
+                android:textColor="@color/black"
+                android:id="@+id/tvDate"
+                android:layout_below="@id/completeNameText"
+                android:layout_toRightOf="@+id/imageView_profile_dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Loading..."
+                android:textColor="@color/black"
+                android:id="@+id/dateText"
+                android:layout_toRightOf="@id/tvDate"
+                android:layout_below="@id/completeNameText"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Service: "
+                android:id="@+id/tvService"
+                android:layout_below="@id/dateText"
+                android:layout_toRightOf="@+id/imageView_profile_dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Loading..."
+                android:textColor="@color/black"
+                android:id="@+id/serviceText"
+                android:layout_toRightOf="@id/tvService"
+                android:layout_below="@id/dateText"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/moreDetails"
+                android:visibility="gone"
+                android:layout_below="@+id/imageView_profile_dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. How was our service?"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvquestion1"
+                    android:layout_marginTop="25dp"
+                    android:layout_below="@id/imageView_profile_dp"/>
+
+                <!-- emoticon -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/tvquestion1"
+                    android:gravity="left"
+                    android:id="@+id/emotionCase">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/angryicon"
+                            android:layout_margin="5dp"
+                            android:id="@+id/emoji1"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="Angry"
+                            android:id="@+id/emoji1text"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!-- end of emoticon one -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Were you comfrotable during your visi?"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvquestion2"
+                    android:layout_marginTop="25dp"
+                    android:layout_below="@id/emotionCase"/>
+
+                <!-- emoticon two -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/tvquestion2"
+                    android:gravity="left"
+                    android:id="@+id/emotionCase2">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/angryicon"
+                            android:layout_margin="5dp"
+                            android:id="@+id/emoji2"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="Angry"
+                            android:id="@+id/emoji2text"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- end of emotion 2 -->
+
+                <!-- question number 3 -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. How would you rate our dentist and patient experience?"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvquestion3"
+                    android:layout_marginTop="25dp"
+                    android:layout_below="@id/emotionCase2"/>
+
+                <EditText
+                    android:id="@+id/editTextForQuestion3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:background="@color/white"
+                    android:layout_below="@id/tvquestion3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginTop="15dp"
+                    android:focusable="false"
+                    />
+
+                <!-- question number 4 -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Are there any insights, suggestions, or complaints that you wanted to say in our clinic?"
+                    android:textColor="@color/black"
+                    android:id="@+id/tvquestion4"
+                    android:layout_marginTop="25dp"
+                    android:layout_below="@id/editTextForQuestion3"/>
+
+                <EditText
+                    android:id="@+id/editTextForQuestion4"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:background="@color/white"
+                    android:layout_below="@id/tvquestion4"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="10dp"
+                    android:focusable="false"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/expandButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/dropdown" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

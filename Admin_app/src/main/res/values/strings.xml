@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Admin Abey Dental Clinic App</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_mission_is_to_provide_the_best__and_friendly__dental_care_available_for_all_ages_with_the_aim_of_string">
+        My mission is to provide the best and friendly dental care available for all ages with the aim of.
+    </string>
+    <string name="hello_dr__abey_string">Hello, Dr. Abey</string>
+    <string name="dr__abey_gordon_string"> Dr. Abey Gordon</string>
+    <string name="html">
+        <![CDATA[
+
+        <h3>Privacy Policy</h3>
+
+        <p>Personal identification information</p
+    <p> We may collect personal identification information from Users in a variety of ways, including, requesting a demo, contacting us via our contact form, and in connection with other activities, services, features, or resources we make available on our Facebook page. Users may be asked for, as appropriate, name, email address, mailing address, and phone number. We will collect personal identification information from Users only if they voluntarily submit such information to us. Users can always refuse to supply personal identification information, except that it may prevent them from engaging in certain Site-related activities.</p>
+<p> How we protect your information
+    We adopt appropriate data collection, storage, and processing practices and security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information, username, password, transaction information, and data stored on our Site.
+</p>
+<h3>
+    Sharing your personal information</h3>
+    <p>
+    We do not sell, trade, or rent Users personal identification information to others.
+</p>
+     <p>
+   We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates, and advertisers for the purposes outlined above.
+</p>
+
+    <h3>Your acceptance of these terms</h3>
+  <p>
+  By using this Application, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our Application. Your continued use of the Application following the posting of changes to this policy will be deemed your acceptance of those changes.
+</p>
+      <h3>Contacting us</h3>
+    <p>
+    If you have any questions about this Privacy Policy, the practices of this Application, or your dealings with this Application, please contact us via our Contact Us form.</p>
+
+        <h3>Consent</h3>
+<p>By using our app, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>
+]]>
+    </string>
+    <string name="Select">Select Services</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="spinner_title">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>

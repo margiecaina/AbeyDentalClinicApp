@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Abey Dental Clinic App</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Our_mission_is_to_provide_the_best__and_friendly__dental_care_available_for_all_ages_with_the_aim_of_string">
+        Our mission is to provide the best and friendly dental care available for all ages with the aim of.
+    </string>
+    <string name="hello_dr__abey_string">Hello, Dr. Abey</string>
+    <string name="dr__abey_gordon_string"> Dr. Abey Gordon</string>
+    <string name="username">Username</string>
+    <string name="hello_user">Hello, User.</string>
+</resources>
