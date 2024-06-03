@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.time.LocalDate;
 
 public class BookAppointment extends AppCompatActivity {
 
@@ -99,7 +100,7 @@ public class BookAppointment extends AppCompatActivity {
                 // check if appointment is the same day
                 if(currentDate.equals(datetext)){
                     calendar = Calendar.getInstance();
-                    SimpleDateFormat timeformat = new SimpleDateFormat("hh:mm:ss aaa");
+                    SimpleDateFormat timeformat = new SimpleDateFormat("HH:mm");
                     String currentTime = timeformat.format(calendar.getTime());
                     String endTime;
                     if(session.equals("Morning Session 9am - 12pm")){
@@ -107,9 +108,9 @@ public class BookAppointment extends AppCompatActivity {
                         //get current date
 
                         // if appointment is after 12pm
-                        endTime = "12:00:00 PM";
+                        endTime = "12:00";
 
-                        if(currentTime.compareTo(endTime) < 0){
+                        if(currentTime.compareTo(endTime) > 0){
                             errorTv.setText("Appointment time is passed 12pm.");
                         }else{
                             Intent bookingData = new Intent(BookAppointment.this, RequestConfirmation.class);
@@ -124,18 +125,18 @@ public class BookAppointment extends AppCompatActivity {
                         // if appointment is same day
                         //get current date
 
-                        // if appointment is after 12pm
-                        endTime = "5:00:00 PM";
+                        // if appointment is after 5pm
+                        endTime = "17:00";
 
-                        if(currentTime.compareTo(endTime) < 0){
+                        if(currentTime.compareTo(endTime) > 0){
+                            errorTv.setText("Appointment time is passed 5pm. Clinic is closed.");
+                        }else{
                             Intent bookingData = new Intent(BookAppointment.this, RequestConfirmation.class);
                             bookingData.putExtra("appointmentdate", datetext);
                             bookingData.putExtra("services", serviceTypeName);
                             bookingData.putExtra("session", session);
                             startActivity(bookingData);
                             finish();
-                        }else{
-                            errorTv.setText("Appointment time is passed 5pm. Clinic is closed.");
                         }
                     }
                 }else{

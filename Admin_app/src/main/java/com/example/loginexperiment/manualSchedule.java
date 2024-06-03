@@ -47,7 +47,9 @@ public class manualSchedule extends AppCompatActivity{
     static final int DATE_DIALOG_ID = 1;
     static final int TIME_DIALOG_ID = 2;
 
-    private int year, month, day;
+    private int year;
+    private int month;
+    private int day;
     private int hours, min;
 
     // Services Listdown
@@ -188,7 +190,12 @@ public class manualSchedule extends AppCompatActivity{
 
     // Set Date Schedule
     private void updateDate() {
-        ScheduleDate.setText(new StringBuilder().append(month + 1).append('/').append(day).append('/')
+        month = month + 1;
+        String monthtext = String.valueOf(month);
+        String daytext = String.valueOf(day);
+        if (month < 10){ monthtext = "0" + month;}
+        if (day < 10){ daytext = "0" + daytext;}
+        ScheduleDate.setText(new StringBuilder().append(monthtext).append('/').append(daytext).append('/')
                 .append(year));
     }
     // Set Time Schedule
