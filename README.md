@@ -19,7 +19,9 @@ Project Manager: Armie Norlie Morga and
 
 Researcher: Ezekiel Elpuz
 
-Programmer: Margie Caina & Kent Diego
+Lead Programmer: Margie Caina
+
+Programmer: Kent Diego
 
 UI Designer: Zhara Fae Ducusin
 
