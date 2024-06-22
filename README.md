@@ -9,6 +9,19 @@ Application Overview
 
 The app allows patients to conveniently book appointments from their smartphones, reducing wait times and enhancing productivity. Key features include precise appointment details, a clinic locator map, reusable software components for easy updates, and improved UI design for better user experience. Additionally, social media integration and a feedback page enhance communication, service quality, and customer satisfaction.
 
+Patient Profile 
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/528c69a6-11db-4484-8fa6-49c69df4fc89" width="300">
+
+Service Page
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/415214ea-c118-4fe9-9459-92f96990a055" width="300">
+
+Queue Page
+<img src="https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/92d15193-6e4e-4fcc-990a-d94df625c8c3" width="300">
+
+Feedback Page
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/b37ecdf2-b2bc-48d6-81ef-ea1d7acf089d" width="300">
+
+
 Credits and Acknowledgements
 
 Development Team
