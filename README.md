@@ -15,11 +15,11 @@ Development Team
 
 The Abey Gordon Dental Clinic Management App was created and developed by a dedicated team of students from the University of Makati. We want to acknowledge the efforts and contributions of the following team members:
 
-Project Manager: Armie Norlie Morga and 
+Lead Programmer: Margie Caina
+
+Project Manager: Armie Norlie Morga 
 
 Researcher: Ezekiel Elpuz
-
-Lead Programmer: Margie Caina
 
 Programmer: Kent Diego
 
