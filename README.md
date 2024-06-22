@@ -1,4 +1,4 @@
-<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/9495616f-b80b-4f1a-9e7c-77157b6603b5" width= "300">
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/ff9fff37-d0cb-4d43-ac31-725803e00e0b" width="300">
 
 Welcome to Dr. Abey Gordon Dental Clinic Management app, developed by University of Makati students, modernizes operations at the Pioneer Street clinic in Mandaluyong. It streamlines appointment scheduling, reduces wait times, and provides a map for easy clinic location. The app enhances efficiency with digital records, improves patient-clinic communication, and increases visibility through social media integration and feedback features. By using reusable software components, it ensures flexibility and adaptability, ultimately enhancing service quality, operational efficiency, and patient satisfaction.
 
