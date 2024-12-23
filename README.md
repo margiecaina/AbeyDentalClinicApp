@@ -27,6 +27,6 @@ Feedback Page
 
 
 
-Softwares: Android Studio
+Software: Android Studio
 
 Database: Firebase
