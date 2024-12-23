@@ -25,44 +25,5 @@ Feedback Page
 
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/b37ecdf2-b2bc-48d6-81ef-ea1d7acf089d" width="300">
 
-
-Credits and Acknowledgements
-
-Development Team
-
-The Abey Gordon Dental Clinic Management App was created and developed by a dedicated team of students from the University of Makati. We want to acknowledge the efforts and contributions of the following team members:
-
-Lead Programmer: Margie Caina
-
-Project Manager: Armie Norlie Morga 
-
-Researcher: Ezekiel Elpuz
-
-Programmer: Kent Diego
-
-UI Designer: Zhara Fae Ducusin
-
-Business Analyst: Yvette Reyes
-
-Tester: Dan Russel Valdez
-
-Special thanks to the advisors and mentors who provided guidance and support throughout the development process:
-
-Course Adviser: Professor Era Marie Gannaban
-
-We want to extend our gratitude to the following organizations and individuals for their support and contributions:
-
-Clinic Management: Dr. Abey Gordon
-
-For their input and assistance in understanding the practical needs of the clinic.
-
-Beta Testers: For their valuable feedback during the testing phase.
-
-Contact Information
-
-For further information or support, please contact:
-
-Email: support@abeydentalclinic.com
-
 Softwares: Android Studio
 Database: Firebase
