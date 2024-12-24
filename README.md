@@ -24,6 +24,33 @@ The **Abey Dental Clinic App** is designed to streamline dental clinic operation
 
 ---
 
+## Images
+
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/ff9fff37-d0cb-4d43-ac31-725803e00e0b" width="300">
+
+Link to download app: 
+https://dentalclinic.itch.io/drabeygordondentalclinicapp?fbclid=IwAR2w-6xJGafEB2m3QFB9YIa8YazjY9TM82D6NrZfUTPI6gmKE-cQ00A7cS4
+
+Application Overview
+
+Patient Profile 
+
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/528c69a6-11db-4484-8fa6-49c69df4fc89" width="300">
+
+Service Page
+
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/415214ea-c118-4fe9-9459-92f96990a055" width="300">
+
+Queue Page
+
+<img src="https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/92d15193-6e4e-4fcc-990a-d94df625c8c3" width="300">
+
+Feedback Page
+
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/b37ecdf2-b2bc-48d6-81ef-ea1d7acf089d" width="300">
+
+---
+
 ## Technologies Used
 - **Frontend:** Java (XML for layouts)
 - **Backend:** Firebase
@@ -93,32 +120,6 @@ The **Abey Dental Clinic App** is designed to streamline dental clinic operation
    git push origin feature-name
    ```
 5. Open a pull request.
-
----
-
-<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/ff9fff37-d0cb-4d43-ac31-725803e00e0b" width="300">
-
-Link to download app: 
-https://dentalclinic.itch.io/drabeygordondentalclinicapp?fbclid=IwAR2w-6xJGafEB2m3QFB9YIa8YazjY9TM82D6NrZfUTPI6gmKE-cQ00A7cS4
-
-Application Overview
-
-Patient Profile 
-
-<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/528c69a6-11db-4484-8fa6-49c69df4fc89" width="300">
-
-Service Page
-
-<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/415214ea-c118-4fe9-9459-92f96990a055" width="300">
-
-Queue Page
-
-<img src="https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/92d15193-6e4e-4fcc-990a-d94df625c8c3" width="300">
-
-Feedback Page
-
-<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/b37ecdf2-b2bc-48d6-81ef-ea1d7acf089d" width="300">
-
 
 ---
 
