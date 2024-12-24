@@ -23,27 +23,28 @@ The **Abey Dental Clinic App** is designed to streamline dental clinic operation
 - **Feedback System:** Review clinic feedback from patients.
 
 ### Application Overview:
-<p align="center">
+
 **Home Page**: Clinic branding.
 
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/ff9fff37-d0cb-4d43-ac31-725803e00e0b" width="300" >
 
 **Patient Profile**: Edit, view and update patient information.
 
-<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/528c69a6-11db-4484-8fa6-49c69df4fc89" width="300" align="center">
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/528c69a6-11db-4484-8fa6-49c69df4fc89" width="300">
 
-**Service Page**: View services offered by the clinic.
 
-<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/415214ea-c118-4fe9-9459-92f96990a055" width="300" align="center">
+**Service Page**: View services offered by the clinic and book appointment.
+
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/415214ea-c118-4fe9-9459-92f96990a055" width="300">
 
 **Queue Page**: View patients on queue and appointment information.
 
-<img src="https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/92d15193-6e4e-4fcc-990a-d94df625c8c3" width="300" align="center">
+<img src="https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/92d15193-6e4e-4fcc-990a-d94df625c8c3" width="300">
 
 **Feedback Page**: Rate and review clinic services.
 
-<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/b37ecdf2-b2bc-48d6-81ef-ea1d7acf089d" width="300" align="center">
-</p>
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/b37ecdf2-b2bc-48d6-81ef-ea1d7acf089d" width="300">
+
 ---
 
 ## Download
