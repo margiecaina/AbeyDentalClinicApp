@@ -29,19 +29,19 @@ The **Abey Dental Clinic App** is designed to streamline dental clinic operation
 
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/ff9fff37-d0cb-4d43-ac31-725803e00e0b" width="300">
 
-Patient Profile 
+**Patient Profile**: Edit, view and update patient information.
 
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/528c69a6-11db-4484-8fa6-49c69df4fc89" width="300">
 
-Service Page
+**Service Page**: View services offered by the clinic.
 
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/415214ea-c118-4fe9-9459-92f96990a055" width="300">
 
-Queue Page
+**Queue Page**: View patients on queue and appointment information.
 
 <img src="https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/92d15193-6e4e-4fcc-990a-d94df625c8c3" width="300">
 
-Feedback Page
+**Feedback Page**: Rate and review clinic services.
 
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/b37ecdf2-b2bc-48d6-81ef-ea1d7acf089d" width="300">
 
@@ -49,6 +49,8 @@ Feedback Page
 
 ## Download
 You can download the latest version of the app from this [link](https://dentalclinic.itch.io/drabeygordondentalclinicapp?fbclid=IwAR2w-6xJGafEB2m3QFB9YIa8YazjY9TM82D6NrZfUTPI6gmKE-cQ00A7cS4).
+
+---
 
 ## Technologies Used
 - **Frontend:** Java (XML for layouts)
