@@ -22,7 +22,7 @@ The **Abey Dental Clinic App** is designed to streamline dental clinic operation
 - **Notifications:** Receive reminders for upcoming appointments and follow-ups.
 - **Feedback System:** Review clinic feedback from patients.
 
-### Application Overview
+### Application Overview:
 
 
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/ff9fff37-d0cb-4d43-ac31-725803e00e0b" width="300">
