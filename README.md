@@ -96,11 +96,6 @@ The **Abey Dental Clinic App** is designed to streamline dental clinic operation
 
 ---
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/ff9fff37-d0cb-4d43-ac31-725803e00e0b" width="300">
 
 Link to download app: 
@@ -123,6 +118,12 @@ Queue Page
 Feedback Page
 
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/b37ecdf2-b2bc-48d6-81ef-ea1d7acf089d" width="300">
+
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
