@@ -23,10 +23,10 @@ The **Abey Dental Clinic App** is designed to streamline dental clinic operation
 - **Feedback System:** Review clinic feedback from patients.
 
 ### Application Overview:
-
+<p align="center">
 **Home Page**: Clinic branding.
 
-<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/ff9fff37-d0cb-4d43-ac31-725803e00e0b" width="300" align="center">
+<img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/ff9fff37-d0cb-4d43-ac31-725803e00e0b" width="300" >
 
 **Patient Profile**: Edit, view and update patient information.
 
@@ -43,7 +43,7 @@ The **Abey Dental Clinic App** is designed to streamline dental clinic operation
 **Feedback Page**: Rate and review clinic services.
 
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/b37ecdf2-b2bc-48d6-81ef-ea1d7acf089d" width="300" align="center">
-
+</p>
 ---
 
 ## Download
