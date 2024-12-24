@@ -24,7 +24,8 @@ The **Abey Dental Clinic App** is designed to streamline dental clinic operation
 
 ### Application Overview:
 
-**Home Page**: View clinic branding.
+**Home Page**: Clinic branding.
+
 <img src = "https://github.com/margiecaina/AbeyDentalClinicApp/assets/73752427/ff9fff37-d0cb-4d43-ac31-725803e00e0b" width="300">
 
 **Patient Profile**: Edit, view and update patient information.
