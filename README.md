@@ -68,7 +68,7 @@ You can download the latest version of the app from this [link](https://dentalcl
 - Android Studio installed
 - Firebase account set up with a project for the app
 - Mobile device or emulator for testing
-- SDK Mininum 24 
+- SDK Mininum Version 24 
 
 ### Steps:
 1. Clone the repository:
