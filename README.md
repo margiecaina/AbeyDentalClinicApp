@@ -17,7 +17,6 @@ The **Abey Dental Clinic App** is designed to streamline dental clinic operation
 ### For Administrators:
 - **Patient Management:** Add, update, and delete patient records.
 - **Appointment Management:** Track and organize daily schedules.
-- **Billing and Invoicing:** Generate bills and invoices for treatments.
 - **Treatment Plans:** Manage and document patient treatment plans.
 - **Notifications:** Receive reminders for upcoming appointments and follow-ups.
 - **Feedback System:** Review clinic feedback from patients.
