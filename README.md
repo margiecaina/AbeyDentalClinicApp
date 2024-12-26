@@ -96,11 +96,11 @@ You can download the latest version of the app from this [link](https://dentalcl
 
 ### Patient:
 1. Sign up using email or social media accounts.
-2. Browse dentist profiles and book appointments.
+2. Browse services and book appointments.
 3. View treatment history and receive reminders.
 
 ### Administrator:
-1. Log in with admin credentials including the unique code from administrator.
+1. Log in with admin credentials or sign up with the unique code from administrator.
 2. Access the dashboard to manage appointments and patients.
 
 ---
