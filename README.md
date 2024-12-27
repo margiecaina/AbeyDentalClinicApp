@@ -126,7 +126,3 @@ You can download the latest version of the app from this [link](https://dentalcl
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-## Acknowledgments
-Special thanks to the development team and testers who contributed to making this app a reality.
